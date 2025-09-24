@@ -1,0 +1,288 @@
+--------------------------------------------------
+1. NOME DO ARQUIVO: carro_i_d_01.jpg
+
+2. DIMENSÕES: 4032x3024 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Carro
+   - Ambiente: Interno (Garagem)
+   - Iluminação: Diurna (Luz ambiente)
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+O carro está bem iluminado e as cores (branco e preto) estão bem representadas.
+
+* Pontos Negativos/Desafios:
+
+Oclusão Parcial: Uma parte da frente e de trás do carro está "ocluída" (escondida) pela estrutura da garagem e pela grade/parede. O algoritmo não verá o carro inteiro.
+
+Reflexos Fortes: O vidro e a lataria do carro funcionam como um espelho, refletindo o ambiente. Esses reflexos podem ser confundidos com texturas ou formas que não pertencem ao carro.
+
+Fundo: O fundo não é homogêneo, contendo pilares, sombras e as faixas amarela e preta na parede, que podem distrair a análise.
+--------------------------------------------------
+1. NOME DO ARQUIVO: carro_i_n_01.jpg
+
+2. DIMENSÕES: 4032x3024 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Carro
+   - Ambiente: Interno (Garagem)
+   - Iluminação: Noturna (Luz artificial da garagem)
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+O perfil lateral do carro está bem visível. As rodas se destacam bem.
+
+* Pontos Negativos/Desafios:
+
+Objeto Escuro em Fundo Escuro: O carro é preto e a garagem à noite é escura. Grande parte da lataria se mistura com o fundo, e o contorno do carro é difícil de definir, especialmente na parte de cima.
+
+Informação por Reflexo: Assim como na foto anterior, muito do que vemos do formato do carro é por causa dos reflexos da luz da garagem, e não da cor do carro em si.
+--------------------------------------------------
+1. NOME DO ARQUIVO: carro_o_d_01.jpg
+
+2. DIMENSÕES: 1505x709 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Carro
+   - Ambiente: Externo
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+Imagem de alta qualidade, com cores vibrantes e ótima iluminação no objeto principal.
+
+* Pontos Negativos/Desafios:
+
+Fundo Extremamente Complexo: O fundo é o maior "problema" aqui. Temos vegetação, céu, nuvens e montanhas. Para um computador, é muito difícil saber onde o carro termina e onde o fundo começa.
+
+Sombra Forte: Há uma sombra bem escura projetada sob o carro.
+
+Outros Objetos: Há outros carros visíveis no fundo à direita, o que poderia confundir um sistema de detecção.
+--------------------------------------------------
+1. NOME DO ARQUIVO: carro_o_n_01.jpg
+
+2. DIMENSÕES: 640x480 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Carro
+   - Ambiente: Externo
+   - Iluminação: Noturna (Luz artificial da rua/farol)
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+Apesar das condições, a silhueta do carro é reconhecível.
+
+* Pontos Negativos/Desafios:
+
+Baixa Qualidade/Ruído: A imagem parece ter baixa resolução e muito ruído (granulação), típicos de fotos noturnas.
+
+Iluminação Desafiadora: A luz vem de fontes pontuais (farol, poste), criando brilhos muito intensos (no farol e no teto) e deixando quase todo o resto do carro em completa escuridão.
+
+Informação Perdida: Detalhes como as rodas, a cor exata e as portas são quase impossíveis de distinguir. A placa está totalmente superexposta (branca, sem detalhes).
+--------------------------------------------------
+1. NOME DO ARQUIVO: chave_i_d_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Chave
+   - Ambiente: Interno
+   - Iluminação: Diurna (Luz ambiente)
+
+4. DESCRIÇÃO PESSOAL:
+
+* Pontos Positivos:
+
+Fundo Homogêneo: O fundo rosa é quase perfeitamente uniforme, sem textura ou outras cores. Isso torna a tarefa de separar a chave do fundo muito fácil para um algoritmo. É uma imagem de altíssima qualidade para segmentação.
+
+Iluminação Ideal: A luz é difusa e bem distribuída. Não há sombras fortes nem reflexos de luz muito intensos (brilho especular) que escondam o formato da chave.
+
+Foco e Nitidez: O objeto está totalmente em foco e os detalhes da chave estão bem nítidos.
+
+* Pontos Negativos/Desafios:
+
+Praticamente não há pontos negativos nesta imagem; ela é um ótimo exemplo de "caso ideal".
+--------------------------------------------------
+1. NOME DO ARQUIVO: chave_i_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Chave
+   - Ambiente: Interno
+   - Iluminação: Noturna (Luz artificial)
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+O objeto continua bem focado e centralizado.
+
+* Pontos Negativos/Desafios:
+
+Fundo Texturizado: O fundo de madeira possui uma textura forte (os veios da madeira). Um algoritmo simples pode confundir essas linhas da madeira com as bordas da chave.
+
+Reflexos: A iluminação artificial parece ser mais direta, causando alguns pontos de brilho intenso no metal da chave, o que pode "apagar" os detalhes naquela pequena área.
+
+Cor: A cor da iluminação (mais amarelada) alterou a percepção da cor real da chave.
+--------------------------------------------------
+1. NOME DO ARQUIVO: chave_o_d_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Chave
+   - Ambiente: Externo
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+A forma geral da chave está visível.
+
+* Pontos Negativos/Desafios:
+
+Baixo Contraste: A cor da chave é muito parecida com a cor do fundo (parede/cimento). As bordas do objeto não são bem definidas.
+
+Iluminação Sombria: A imagem parece ter sido tirada na sombra. A iluminação é fraca e irregular, fazendo com que a imagem pareça "lavada" e sem vida.
+
+Foco: O foco parece um pouco suave, não está tão nítido quanto nas imagens internas.
+--------------------------------------------------
+1. NOME DO ARQUIVO: chave_o_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Chave
+   - Ambiente: Externo
+   - Iluminação: Noturna (Luz ambiente/artificial)
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos:
+
+O objeto está presente.
+
+* Pontos Negativos/Desafios:
+
+Fundo Complexo: O fundo de mármore/pedra tem muitas variações de cor e textura, o que torna a identificação da chave muito difícil.
+
+Sombra Forte: Há uma sombra escura e bem definida projetada pela chave. Essa sombra pode ser interpretada como parte do objeto ou como um segundo objeto na cena.
+
+Contraste: Assim como na chave_o_d, o contraste entre o objeto e o fundo é baixo em várias partes.
+--------------------------------------------------
+1. NOME DO ARQUIVO: escova_i_d_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Escova de dente
+   - Ambiente: Interno
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos: O objeto está bem focado e centralizado. A iluminação diurna é boa e revela bem as cores da escova.
+
+   * Pontos Negativos/Desafios: O fundo de mármore é texturizado e tem variações de cor, o que pode dificultar um pouco a segmentação automática em comparação com um fundo liso. A curva da pia à esquerda cria uma variação de sombra e forma no fundo.
+--------------------------------------------------
+1. NOME DO ARQUIVO: escova_i_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Escova de dente
+   - Ambiente: Interno
+   - Iluminação: Noturna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+ * Pontos Positivos: O foco no objeto está excelente. O fundo (mármore/pedra) é relativamente consistente.
+
+ * Pontos Negativos/Desafios: A iluminação artificial parece vir de cima, criando um reflexo brilhante na parte plástica da escova e uma sombra sutil abaixo dela. As cerdas parecem um pouco escuras.
+--------------------------------------------------
+1. NOME DO ARQUIVO: escova_o_d_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS de AQUISIÇÃO:
+   - Classe do Objeto: Escova de dente
+   - Ambiente: Externo
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos: Esta é uma imagem quase ideal. O fundo (tecido branco) é extremamente homogêneo e tem ótimo contraste com a escova. A iluminação é difusa, sem sombras fortes ou reflexos excessivos. O objeto está nítido e bem posicionado.
+
+   * Pontos Negativos/Desafios: Praticamente nenhum. As cerdas estão um pouco gastas, o que adiciona uma textura "ruidosa" na ponta da escova, mas isso é uma característica do objeto real.
+--------------------------------------------------
+1. NOME DO ARQUIVO: escova_o_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Escova de dente
+   - Ambiente: Externo
+   - Iluminação: Noturna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos: O objeto principal está em foco.
+
+   * Pontos Negativos/Desafios: A imagem é escura. A iluminação lateral cria uma sombra forte e escura que se projeta na parede. Há um objeto no lado direito que pode confundir a análise. O fundo (parede de cimento) é texturizado e escuro.
+--------------------------------------------------
+1. NOME DO ARQUIVO: flor_i_d_01.jpg
+
+2. DIMENSÕES: 4032x3024 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Flor
+   - Ambiente: Interno
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+   * Pontos Positivos: As cores das flores estão vibrantes e a iluminação é boa. O fundo (parede branca) é bem homogêneo.
+
+   * Pontos Negativos/Desafios: O objeto de interesse não está centralizado, ocupando a parte inferior da imagem. Há múltiplas flores e algumas estão mais em foco que outras (profundidade de campo rasa). A folha escura na parte inferior esquerda pode ser uma distração.
+--------------------------------------------------
+1. NOME DO ARQUIVO: flor_i_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Flor
+   - Ambiente: Interno
+   - Iluminação: Noturna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+  * Pontos Positivos: Imagem artisticamente interessante. O objeto principal (a flor aberta) está bem focado e a iluminação destaca suas cores e padrões únicos. O fundo é homogêneo.
+
+  * Pontos Negativos/Desafios: A iluminação é muito direcional, deixando o caule e os botões inferiores na sombra (perda de informação). O caule escuro se mistura com o fundo escuro em algumas partes.
+--------------------------------------------------
+1. NOME DO ARQUIVO: flor_o_d_01.jpg
+
+2. DIMENSÕES: 480x640 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Flor
+   - Ambiente: Externo
+   - Iluminação: Diurna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+* Pontos Positivos: A flor principal está bem centralizada e em foco, com iluminação natural que realça suas pétalas.
+
+* Pontos Negativos/Desafios: O fundo é o maior desafio: é extremamente complexo e "poluído", com terra, casca de árvore e outras folhas. É muito difícil para um algoritmo separar a flor e suas folhas do resto da cena. A profundidade de campo rasa deixa o fundo borrado, o que ajuda, mas ainda assim é complexo.
+--------------------------------------------------
+1. NOME DO ARQUIVO: flor_o_n_01.jpg
+
+2. DIMENSÕES: 3024x4032 pixels
+
+3. CARACTERÍSTICAS DE AQUISIÇÃO:
+   - Classe do Objeto: Flor
+   - Ambiente: Externo
+   - Iluminação: Noturna
+
+4. DESCRIÇÃO PESSOAL (PONTOS POSITIVOS E NEGATIVOS):
+* Pontos Positivos: O agrupamento principal de flores está relativamente bem iluminado.
+
+* Pontos Negativos/Desafios: Imagem muito escura e com baixo contraste. Uma sombra forte cobre a parte esquerda e as folhas. A fonte de luz parece ser fraca e direcional, iluminando apenas uma porção das flores e deixando o resto na penumbra. O fundo é escuro e se mistura com as partes sombreadas da planta.
+--------------------------------------------------
